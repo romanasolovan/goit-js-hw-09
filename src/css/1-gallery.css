@@ -2,8 +2,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-family: 'Montserrat', sans-serif;
+}
+
 a {
   text-decoration: none;
+  color: #bb7b10;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
 }
 
 ul,
@@ -35,4 +45,8 @@ li {
 
 .gallery-image:hover {
   transform: scale(1.044);
+}
+
+body {
+  background-color: antiquewhite;
 }

@@ -5,9 +5,9 @@
   |============================
 */
 /* Common styles */
+/* @import url('modern-normalize/modern-normalize.css'); */
 @import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
+@import url('simplelightbox/dist/simple-lightbox.min.css');
 
 /* Sections style */
 @import url('./1-gallery.css');
